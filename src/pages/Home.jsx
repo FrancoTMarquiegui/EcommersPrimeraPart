@@ -72,7 +72,7 @@ const Home = () => {
                     <Card.Img
                       variant="top"
                       src={productsItem.productImgs?.[0]}
-                      style={{ heigth: 100, objectFit:"contain" }}
+                      style={{ height: 100, objectFit:"contain" }}
                     />
                     <Card.Body>
                       <Card.Title>{productsItem.title}</Card.Title>
